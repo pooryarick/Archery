@@ -1,0 +1,407 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+::-webkit-scrollbar {
+    background-color: #244524;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #5ecb63;
+    border-radius: 50%;
+}
+a {
+    text-decoration: none;
+}
+body {
+    min-width: 700px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main {
+    height: auto;
+    overflow: hidden;
+}
+h3 {
+    text-align: center;
+    font-family: 'Amapola Modern';
+    font-size: 40px;
+    margin-bottom: 5%;
+}
+h4 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 3%;
+}
+.header {
+    position: relative;
+    background-color: #244524;
+    padding: 1.5%;
+    height: 145px;
+}
+
+.logo {
+    margin-left: 6%;
+    margin-top: 1%;
+}
+.logo h1 a {
+    color: #5ecb63;
+    font-family: 'Amapola Modern Alt';
+    transition: 0.5s ease-in-out;
+    font-weight: bolder;
+    font-size: 130%;
+}
+.logo h1 a:hover {
+    color: #5ecb63;
+    text-shadow: 2px -2px 20px #81f20d;
+}
+.menu-bar {
+    display: inline-block;
+    position: absolute;
+    top: 72%;
+    left: 40%;
+    height: 25%;
+    width: 60%;
+}
+.menu-bar a {
+    color: #5ecb63;
+    text-decoration: none;
+    margin-right: 1%;
+    font-size: 24px;
+    font-family: 'Amapola Modern';
+    transition: 0.5s ease-in-out;
+    font-weight: bold;
+}
+.menu-bar a:not(:last-child) {
+    border-right: 2px solid #5ecb63;
+    padding-right: 2%;
+}
+
+.menu-bar a:hover {
+    color: #5ecb63;
+    text-shadow: 2px -2px 20px #81f20d;
+}
+.menu {
+    width: 100%;
+    height: 100%;
+}
+.parallax-1, 
+.parallax-2,
+.parallax-3,
+.parallax-4,
+.parallax-5, 
+.parallax-6 {
+    background-image: url("assets/img/Леголас.jpg");
+    background-size: 1000px;
+    min-height: 400px;
+    background-attachment: fixed;
+    opacity: 0.9;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -5;
+}
+.parallax-1 h2,
+.parallax-2 h2,
+.parallax-3 h2,
+.parallax-4 h2,
+.parallax-5 h2 {
+    text-shadow: 2px -2px 20px #81f20d;
+    text-align: center;
+    font-size: 120px;
+    top: 140px;
+    color: #244524;
+    font-family: 'Amapola Modern Alt';
+    font-weight: bolder;
+    position: relative;
+    letter-spacing: 5%;
+}
+.parallax-2 {
+    background-image: url("assets/img/Лучник.jpg");
+}
+.parallax-3 {
+    background-image: url("assets/img/Охотник.jpg");
+}
+.parallax-4 {
+    background-image: url("assets/img/Робин Гуд.jpg");
+}
+.parallax-5 {
+    background-image: url("assets/img/Арагорн.jpg");
+}
+.parallax-6 {
+    background-image: url("assets/img/Лучник1.jpg");
+}
+.parallax-1.history {
+    background-image: url("assets/img/history (1).jpg");
+}
+.parallax-2.history {
+    background-image: url("assets/img/history (2).jpg");
+}
+.parallax-3.history {
+    background-image: url("assets/img/history (3).jpg");
+}
+.parallax-4.history {
+    background-image: url("assets/img/history (4).jpg");
+}
+
+.parallax-1.technique {
+    background-image: url("assets/img/technique (1).jpg");
+}
+.parallax-2.technique {
+    background-image: url("assets/img/technique (2).jpg");
+}
+.parallax-3.technique {
+    background-image: url("assets/img/technique (3).jpg");
+}
+.parallax-4.technique {
+    background-image: url("assets/img/technique (4).jpg");
+}
+
+.parallax-1.making {
+    background-image: url("assets/img/making (1).jpg");
+}
+.parallax-2.making {
+    background-image: url("assets/img/making (2).jpg");
+}
+.parallax-3.making {
+    background-image: url("assets/img/making (3).jpg");
+}
+.parallax-4.making {
+    background-image: url("assets/img/making (4).jpg");
+}
+.parallax-5.making {
+    background-image: url("assets/img/making (5).jpg");
+}
+.parallax-1.outfit {
+    background-image: url("assets/img/outfit (1).jpg");
+}
+.parallax-2.outfit {
+    background-image: url("assets/img/outfit (2).jpg");
+}
+.parallax-3.outfit {
+    background-image: url("assets/img/outfit (3).jpg");
+}
+.parallax-4.outfit {
+    background-image: url("assets/img/outfit (4).jpg");
+}
+.parallax-5.outfit {
+    background-image: url("assets/img/outfit (5).jpg");
+}
+.parallax-6.outfit {
+    background-image: url("assets/img/outfit (6).jpg");
+}
+
+.content {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    line-height: 30px;
+    background-color: #244524;
+    padding: 3rem;
+    text-align: justify;
+    color: #5ecb63;
+    position: relative;
+}
+.content a {
+    color: #5ecb63;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+.content a:hover {
+    text-shadow: 2px -2px 20px #81f20d;
+}
+.content>p::first-letter {
+    font-size: 40px;
+    margin-left: 30px;
+    font-family: "Amapola Modern";
+}
+
+.img-container>img {
+    filter: hue-rotate(90deg) brightness(0.5);
+}
+.content>.img-container {
+    text-align: center;
+}
+
+.img-container>img:hover {
+    filter: hue-rotate(0deg) brightness(0.9);
+}
+
+.content ul {
+    padding-left: 5%;
+}
+.content ul li {
+    margin-bottom: 2%;
+    list-style: none;
+}
+.content ul li::before {
+    margin-right: 2%;
+    content: url(assets/img/marker.png);
+}
+.content>p:not(.content>p:last-child) {
+    margin-bottom: 4%;
+}
+.content .btn {
+    position: relative;
+    width: 70%;
+    top: 3%;
+    left: 13%;
+    margin: 0% 2% 4%;
+    border-radius: 50px;
+    border: none;
+    padding: 1%;
+    font-size: 25px;
+    background-color: #5ecb63;
+    color: #244524;
+    cursor: pointer;
+    font-family: 'Amapola Modern';
+    transition: 0.5s;
+}
+.content .btn:hover {
+    box-shadow: 2px -2px 20px #81f20d;
+}
+.content.howarrow {
+    display: none;
+}
+.content.howbow.hidden {
+    display: none;
+}
+.content.howarrow.visible {
+    display: block;
+}
+.plugin-container {
+    display: flex;
+    height: 60vh;
+    max-width: 85vw;
+    gap: 1%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.plugin_item {
+    flex: 1;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: flex 0.8s ease-in-out;
+    overflow: hidden;
+}
+.plugin_item a {
+    visibility: hidden;
+    position: absolute;
+    bottom: 3%;
+    left: 3%;
+    opacity: 0;
+    font-size: 140%;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #244524;
+    padding: 3%;
+    border-radius: 45%;
+}
+.plugin_item.active {
+    flex: 5;
+}
+.plugin_item.active a {
+    visibility: visible;
+    opacity: 1;
+    transition: 1s ease-in-out;
+    transition-delay: opacity 0.5s;
+}
+.footer {
+    background-color: #244524;
+    font-size: 20px;
+    padding: 15px;
+    color: #5ecb63;
+}
+.footer p {
+    text-align: center;
+}
+.footer p:last-child {
+    text-align: end;
+    margin-top: 10px;
+}
+@media (min-width: 1400px) {
+    .logo h1 {
+        font-size: 2.3vw;
+    }
+    .menu-bar a {
+        font-size: 1.7vw;
+    }
+    .content {
+        font-size: 1.4vw;
+    }
+}
+@media (max-width: 1300px) {
+    .logo {
+        margin: 0;
+    }
+    .logo h1 {
+        text-align: center;
+    }
+    .menu-bar {
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .parallax-1 h2 {
+        font-size: 600%;
+    }
+    .content .btn {
+        position: relative;
+        width: 70%;
+        top: 3%;
+        left: 13% !important;
+        margin-bottom: 2%;
+        border-radius: 50px;
+    }
+    .plugin_item>p {
+        font-size: 140%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .plugin-container {
+        flex-direction: column;
+        height: 95vh;
+        border-radius: 50%;
+    }
+    .plugin_item.active {
+        flex: 4;
+    }
+}
+
+
+@media (max-width: 850px) {
+    .parallax-1, 
+    .parallax-2,
+    .parallax-3,
+    .parallax-4,
+    .parallax-5, 
+    .parallax-6 {
+        min-height: 400px;
+        background-attachment: inherit;
+        opacity: 0.9;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: -5;
+    }
+    .parallax-1 h2 {
+        font-size: 500%;
+    }
+}
+@font-face {
+    font-family: "Amapola Modern Alt";
+    src: url("assets/Amapola Modern Alt/Amapola-Modern-Alt.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }
+@font-face {
+    font-family: "Amapola Modern";
+    src: url("assets/Amapola Modern Alt/Amapola-Modern.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }
