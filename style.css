@@ -45,7 +45,7 @@ h4 {
 .logo h1 a {
     color: #5ecb63;
     font-family: 'Amapola Modern Alt';
-    transition: 0.5s ease-in-out;
+    transition: text-shadow 0.5s ease-in-out;
     font-weight: bolder;
     font-size: 130%;
 }
@@ -67,7 +67,7 @@ h4 {
     margin-right: 1%;
     font-size: 24px;
     font-family: 'Amapola Modern';
-    transition: 0.5s ease-in-out;
+    transition: text-shadow 0.5s ease-in-out;
     font-weight: bold;
 }
 .menu-bar a:not(:last-child) {
@@ -99,11 +99,7 @@ h4 {
     background-size: cover;
     z-index: -5;
 }
-.parallax-1 h2,
-.parallax-2 h2,
-.parallax-3 h2,
-.parallax-4 h2,
-.parallax-5 h2 {
+.parallax-1 h2 {
     text-shadow: 2px -2px 20px #81f20d;
     text-align: center;
     font-size: 120px;
@@ -122,12 +118,6 @@ h4 {
 }
 .parallax-4 {
     background-image: url("assets/img/Робин Гуд.jpg");
-}
-.parallax-5 {
-    background-image: url("assets/img/Арагорн.jpg");
-}
-.parallax-6 {
-    background-image: url("assets/img/Лучник1.jpg");
 }
 .parallax-1.history {
     background-image: url("assets/img/history (1).jpg");
@@ -204,7 +194,7 @@ h4 {
 .content a {
     color: #5ecb63;
     text-decoration: underline;
-    transition: 0.5s;
+    transition: text-shadow 0.5s;
 }
 .content a:hover {
     text-shadow: 2px -2px 20px #81f20d;
@@ -254,7 +244,7 @@ h4 {
     color: #244524;
     cursor: pointer;
     font-family: 'Amapola Modern';
-    transition: 0.5s;
+    transition: box-shadow 0.5s;
 }
 .content .btn:hover {
     box-shadow: 2px -2px 20px #81f20d;
@@ -372,8 +362,6 @@ h4 {
         flex: 4;
     }
 }
-
-
 @media (max-width: 850px) {
     .parallax-1, 
     .parallax-2,
