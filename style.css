@@ -1,3 +1,15 @@
+@font-face {
+    font-family: "Amapola Modern Alt";
+    src: url("assets/Amapola Modern Alt/Amapola-Modern-Alt.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }
+@font-face {
+    font-family: "Amapola Modern";
+    src: url("assets/Amapola Modern Alt/Amapola-Modern.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }
 * {
     margin: 0;
     padding: 0;
@@ -381,15 +393,3 @@ h4 {
         font-size: 500%;
     }
 }
-@font-face {
-    font-family: "Amapola Modern Alt";
-    src: url("assets/Amapola Modern Alt/Amapola-Modern-Alt.ttf") format("truetype"); 
-    font-style: normal; 
-    font-weight: normal; 
-    }
-@font-face {
-    font-family: "Amapola Modern";
-    src: url("assets/Amapola Modern Alt/Amapola-Modern.ttf") format("truetype"); 
-    font-style: normal; 
-    font-weight: normal; 
-    }
